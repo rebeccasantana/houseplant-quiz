@@ -2,14 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
+
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One%7CQuestrial&display=swap" rel="stylesheet">
 	<link href="styles/main.css" rel="stylesheet">
 <title>Houseplant Quiz</title>
 </head>
 <body>
 <div id="main">
-<div id="header"><h1>Which Houseplant Best Suits Your Lifestyle?</h1>
-<p> The world of indoor horticulture can be pretty confusing. There are a million and one house plants to choose from, and if you’re a beginner it can feel very overwhelming. Take the quiz to find out which house plant will best suit your life.</p>
+<div id="header"><h1>Which Houseplant Best Suits Your Lifestyle?</h1></div>
+<div id=intro><p> The world of indoor horticulture can be pretty confusing. There are a million and one house plants to choose from, and if you’re a beginner it can feel very overwhelming. Take the quiz to find out which house plant will best suit your life.</p>
 </div>
 
 
@@ -66,32 +67,40 @@
 <div id="airplant" class="result">
 	<h2> Air Plant </h2>
 <img src="images/airplant.jpg" alt="Air Plant">
+<p>Photo by epen2c on <a href="https://www.flickr.com/photos/epen2c/9722353359/">Flickr.</a> Attribution 2.0 Generic (CC BY 2.0)</p>
 <p>If you’re busy, and you can’t set a lot of time aside to take care of your plants, an air plant is a perfect houseplant if you’ve never ventured into indoor horticulture. They do prefer bright (but filtered) sunlight, so you can put pretty much anywhere there’s a window nearby. They don’t take up a lot of space and only require your attention once a week. You don’t even need to worry about soil.</p>
-<button type="reset">Take quiz again</button>
+<button type="reset" value="start over" onClick="refreshPage()">Take quiz again</button>
 </div>
 <div id="philodendron" class="result">
 	<h2> Philodendron </h2>
 	<img src="images/philodendron.jpg" alt="Philodendron">
 	<p>No matter where you live or how much light you have access to, a philodendron is a great starter plant. It requires some attention, so much sure you’re checking the soil frequently to make sure it doesn’t get too dry, but it shouldn’t need daily watering. This is a beautiful hanging plant, great for anyone who doesn’t have too much floor and or desk space. It’ll benefit from from some bi-yearly fertilization, but it’s not necessary.</p>
-	 <button type="reset">Take quiz again</button>
+	 <button type="reset" value="start over" onClick="refreshPage()">Take quiz again</button>
 </div>
 <div id="indoorpalm" class="result">
 <h2> Indoor Palm </h2>
 	<img src="images/indoorpalm.jpg" alt="Indoor Palm">
 	<p>If you’re looking to dive into houseplants face-first and have some time on your hands, consider getting an indoor palms. Indoor palms are big beautiful floor plants that brighten any room in your home. They require a lot of bright light, warm temperatures and high humidity. Keep a close eye on these guys as they can be somewhat temperamental. If you can keep this plant alive, it’ll continue to grow bigger, bushier and more beautiful by the year. It might be a lot of work, but it’s totally worth it.</p>
-	<button type="reset">Take quiz again</button>
+	<button type="reset" value="start over" onClick="refreshPage()">Take quiz again</button>
 </div>
 <div id="artificial" class="result">
 <h2> Artificial Plant </h2>
 <img src="images/artificial.jpg" alt="Artificial Plant">
+<p>Photo by Marco Verch on <a href="https://flickr.com/photos/30478819@N08/32661392157">Flickr.</a> Attribution 2.0 Generic (CC BY 2.0)</p>
 <p>Indoor horticulture probably isn’t the hobby for you. Any plant is going to require some time, space and energy to keep it alive. Plants can be expensive, so there’s no reason to by them if you’ll just let them wilt away. A plastic plant is cheap, requires no time or energy and can give you the aesthetic of a real plant without all the work.</p>
-<button type="reset">Take quiz again</button>
+<button type="reset" value="start over" onClick="refreshPage()">Take quiz again</button>
 </div>
 </div>
 </div>
+
+<footer>
+<p>All images and graphics are from <a href="https://unsplash.com/license/">Unsplash</a> and <a href="https://unsplash.com/license/">Wikimedia Commons</a> and are fair use under creative commons unless otherwise specified. All information about the care of these plants comes from the <a href="https://hgic.clemson.edu/category/indoor-plants/">Clemson Cooperative Extension Home and Garden Information Center.</a> View my Github Repo <a href="https://github.com/rebeccasantana/houseplant-quiz">here.</a></p>
+</footer>
 
 
 
 <script src="scripts/main.js"></script>
 </body>
 </html>
+
+<!-- Source code https://codeactually.com/examples.html -->

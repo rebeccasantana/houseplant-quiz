@@ -56,6 +56,9 @@ el.addEventListener("click", function() {
 });
 });
 
+function refreshPage(){
+    window.location.reload();
+}
 
 		 document.getElementById("form1").onsubmit=function(e) {
 
@@ -107,8 +110,12 @@ result4.style.display= 'block';
 
 total=0;
 
+document.querySelector('#answer').scrollIntoView({
+  behavior: 'smooth'
+});
+
 
 
 	   return false; // required to not refresh the page; just leave this here
 	   }// end the submit function
-//
+//Source code https://codeactually.com/examples.html
