@@ -1,0 +1,163 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Fredoka One', sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+h2 {
+text-align: center;
+font-size: 2rem;
+font-family: 'Fredoka One', sans-serif;
+padding: 2rem;
+}
+
+body {
+font-family: 'Questrial', sans-serif;
+background: #a3ccae;
+margin: 1rem 5rem;
+font-size: 1.5rem;
+}
+
+#form1 {
+  border-style: solid;
+  border-color: #000;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+padding: 1rem 5rem;
+}
+
+.quiz {
+  border-style: solid;
+  border-color: #a3ccae;
+  border-width: 5px;
+}
+
+#q1 {
+  max-width: 510px; /* keep */
+  margin: auto;;
+  display: grid; /* keep */
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+      "warm hot"
+      "cold cool";
+
+}
+
+#q2 {
+  max-width: 510px; /* keep */
+  margin: auto; /* keep */
+  display: grid; /* keep */
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+      "puzzle tv"
+      "party busy";
+
+}
+
+#q3 {
+  max-width: 510px; /* keep */
+  margin: auto; /* keep */
+  display: grid; /* keep */
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+      "little lot"
+      "one none";
+
+}
+
+#q4 {
+  max-width: 510px; /* keep */
+  margin: auto; /* keep */
+  display: grid; /* keep */
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+      "walmart forever21"
+      "gucci dollar";
+
+      }
+
+#q5 {
+        max-width: 510px; /* keep */
+        margin: auto; /* keep */
+        display: grid; /* keep */
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "bright pattern"
+            "simple dark";
+
+      }
+
+#airplant {
+  display: none;
+
+}
+
+#philodendron {
+  display: none;
+}
+
+#indoorpalm {
+  display: none;
+}
+
+#artificial {
+  display: none;
+}
+
+
+button
+{
+margin: auto;
+margin-bottom: 2rem;
+padding: 10px 20px 11px;
+font-family: 'Fredoka One', sans-serif;
+font-size: 21px;
+background-color: #fff;
+font-weight: bold;
+text-shadow: 1px 1px #a3a3a3;
+color: #000;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border: 1px solid #000;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+
+input[type=radio] {
+  display: none;
+}
+
+
+label {
+width: 255px;
+display: inline-block;
+}
+
+button {
+display: block;
+margin-top: 20px;
+
+}

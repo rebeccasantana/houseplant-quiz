@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One%7CQuestrial&display=swap" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">
+<title>Houseplant Quiz</title>
+</head>
+<body>
+<div id="main">
+<div id="header"><h1>Which Houseplant Best Suits Your Lifestyle?</h1>
+<p> The world of indoor horticulture can be pretty confusing. There are a million and one house plants to choose from, and if you’re a beginner it can feel very overwhelming. Take the quiz to find out which house plant will best suit your life.</p>
+</div>
+
+
+<form  id="form1">
+
+<div id="climate"><h2>What kind of climate do you live in?</h2></div>
+<div id="q1">
+<label id="warm"><input type="radio" name="climate" value="3" /><img class="quiz climate" src="images/1.png" alt="Warm and humid"></label>
+<label id="hot"><input type="radio" name="climate" value="1" /><img class="quiz climate" src="images/2.png" alt="Hot and dry"></label>
+<label id="cold"><input type="radio" name="climate" value="4" /><img class="quiz climate" src="images/3.png" alt="Cold and wet"></label>
+<label id="cool"><input type="radio" name="climate" value="2" /><img class="quiz climate" src="images/4.png" alt="Cool and dry"></label>
+</div>
+
+<div id="activity"><h2>What are you most likely to do in your free time?</h2></div>
+<div id="q2">
+<label id="puzzle"><input type="radio" name="activity" value="3" /><img class="quiz activity" src="images/5.png" alt="Doing a puzzle"></label>
+<label id="tv"><input type="radio" name="activity" value="2" /><img class="quiz activity" src="images/6.png" alt="Watching TV"></label>
+<label id="party"><input type="radio"  name="activity" value="1" /><img class="quiz activity" src="images/7.png" alt="Out on the town"></label>
+<label id="busy"><input type="radio" name="activity" value="4" /><img class="quiz activity" src="images/8.png" alt="What free time?"></label>
+</div>
+
+<div id="space"><h2>How much space can you devote to your plant?</h2></div>
+<div id="q3">
+<label id="little"><input type="radio" name="space" value="2"/><img class="quiz space" src="images/17.png" alt="Not much"></label>
+<label id="lot"><input type="radio" name="space" value="3" /><img class="quiz space" src="images/18.png" alt="A good bit"></label>
+<label id="one"><input type="radio"  name="space" value="1" /><img class="quiz space" src="images/19.png" alt="One spot on my desk"></label>
+<label id="none"><input type="radio"  name="space" value="4" /><img class="quiz space" src="images/20.png" alt="None"></label>
+</div>
+
+<div id="brand"><h2>Pick a brand</h2></div>
+<div id="q4">
+<label id="walmart"><input type="radio" name="brand" value="1" /><img class="quiz brand" src="images/9.png" alt="Walmart"></label>
+<label id="forever21"><input type="radio" name="brand" value="2" /><img class="quiz brand" src="images/10.png" alt="Forever 21"></label>
+<label id="gucci"><input type="radio"  name="brand" value="3" /><img class="quiz brand" src="images/11.png" alt="Gucci"></label>
+<label id="dollar"><input type="radio"  name="brand" value="4" /><img class="quiz brand" src="images/12.png" alt="Dollar Tree"></label>
+</div>
+
+<div id="aesthetic"><h2>Choose an aesthetic</h2></div>
+<div id="q5">
+<label id="bright"><input type="radio" name="aesthetic" value="2" /><img class="quiz aesthetic" src="images/13.png" alt="Bright and earth toned"></label>
+<label id="pattern"><input type="radio" name="aesthetic" value="3" /><img class="quiz aesthetic" src="images/14.png" alt="Patterned and open"></label>
+<label id="simple"><input type="radio"  name="aesthetic" value="1" /><img class="quiz aesthetic" src="images/15.png" alt="Clean and simple"></label>
+<label id="dark"><input type="radio" name="aesthetic" value="4" /><img class="quiz aesthetic" src="images/16.png" alt="Dark and minimal"></label>
+</div>
+
+
+<button id="button" type="submit" value="Submit">Show me my results!</button>
+
+</form>
+
+
+<div id=answer>
+
+<div id="airplant" class="result">
+	<h2> Air Plant </h2>
+<img src="images/airplant.jpg" alt="Air Plant">
+<p>If you’re busy, and you can’t set a lot of time aside to take care of your plants, an air plant is a perfect houseplant if you’ve never ventured into indoor horticulture. They do prefer bright (but filtered) sunlight, so you can put pretty much anywhere there’s a window nearby. They don’t take up a lot of space and only require your attention once a week. You don’t even need to worry about soil.</p>
+<button type="reset">Take quiz again</button>
+</div>
+<div id="philodendron" class="result">
+	<h2> Philodendron </h2>
+	<img src="images/philodendron.jpg" alt="Philodendron">
+	<p>No matter where you live or how much light you have access to, a philodendron is a great starter plant. It requires some attention, so much sure you’re checking the soil frequently to make sure it doesn’t get too dry, but it shouldn’t need daily watering. This is a beautiful hanging plant, great for anyone who doesn’t have too much floor and or desk space. It’ll benefit from from some bi-yearly fertilization, but it’s not necessary.</p>
+	 <button type="reset">Take quiz again</button>
+</div>
+<div id="indoorpalm" class="result">
+<h2> Indoor Palm </h2>
+	<img src="images/indoorpalm.jpg" alt="Indoor Palm">
+	<p>If you’re looking to dive into houseplants face-first and have some time on your hands, consider getting an indoor palms. Indoor palms are big beautiful floor plants that brighten any room in your home. They require a lot of bright light, warm temperatures and high humidity. Keep a close eye on these guys as they can be somewhat temperamental. If you can keep this plant alive, it’ll continue to grow bigger, bushier and more beautiful by the year. It might be a lot of work, but it’s totally worth it.</p>
+	<button type="reset">Take quiz again</button>
+</div>
+<div id="artificial" class="result">
+<h2> Artificial Plant </h2>
+<img src="images/artificial.jpg" alt="Artificial Plant">
+<p>Indoor horticulture probably isn’t the hobby for you. Any plant is going to require some time, space and energy to keep it alive. Plants can be expensive, so there’s no reason to by them if you’ll just let them wilt away. A plastic plant is cheap, requires no time or energy and can give you the aesthetic of a real plant without all the work.</p>
+<button type="reset">Take quiz again</button>
+</div>
+</div>
+</div>
+
+
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
