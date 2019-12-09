@@ -54,7 +54,7 @@ max-width: 900px
 }
 
 #q1 {
-  max-width: 510px; /* keep */
+  max-width: 520px; /* keep */
   margin: auto;;
   display: grid; /* keep */
   grid-template-columns: repeat(2, auto);
@@ -66,7 +66,7 @@ max-width: 900px
 }
 
 #q2 {
-  max-width: 510px; /* keep */
+  max-width: 520px; /* keep */
   margin: auto; /* keep */
   display: grid; /* keep */
   grid-template-columns: repeat(2, auto);
@@ -78,7 +78,7 @@ max-width: 900px
 }
 
 #q3 {
-  max-width: 510px; /* keep */
+  max-width: 520px; /* keep */
   margin: auto; /* keep */
   display: grid; /* keep */
   grid-template-columns: repeat(2, auto);
@@ -90,7 +90,7 @@ max-width: 900px
 }
 
 #q4 {
-  max-width: 510px; /* keep */
+  max-width: 520px; /* keep */
   margin: auto; /* keep */
   display: grid; /* keep */
   grid-template-columns: repeat(2, auto);
@@ -102,7 +102,7 @@ max-width: 900px
       }
 
 #q5 {
-        max-width: 510px; /* keep */
+        max-width: 520px; /* keep */
         margin: auto; /* keep */
         display: grid; /* keep */
         grid-template-columns: repeat(2, auto);

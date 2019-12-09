@@ -8,53 +8,54 @@ el.addEventListener("mouseover", function() {
 });
 });
 
-let q1=document.querySelectorAll('.climate');
-q1.forEach(function(el){
-el.addEventListener("click", function() {
-	this.style.border = "5px solid black";
+let q1 = document.querySelectorAll('.climate');
+
+q1.forEach(function(el) {
+    el.addEventListener("click", function(e) {
+q1.forEach(function(el2) {
+el2.style.borderColor = "#a3ccae";
 });
-el.addEventListener("click", function() {
-	this.style.border = "none";
-});
-});
+        e.target.style.borderColor = "#000";
+    });
+})
 
 let q2=document.querySelectorAll('.activity');
-q2.forEach(function(el){
-el.addEventListener("click", function() {
-	this.style.border = "5px solid black";
+q2.forEach(function(el) {
+    el.addEventListener("click", function(e) {
+q2.forEach(function(el2) {
+el2.style.borderColor = "#a3ccae";
 });
-el.addEventListener("click", function() {
-	this.style.border = "none";
-});
-});
+        e.target.style.borderColor = "#000";
+    });
+})
 
 let q3=document.querySelectorAll('.space');
-q3.forEach(function(el){
-el.addEventListener("click", function() {
-	this.style.border = "5px solid black";
+q3.forEach(function(el) {
+    el.addEventListener("click", function(e) {
+q3.forEach(function(el2) {
+el2.style.borderColor = "#a3ccae";
 });
-el.addEventListener("click", function() {
-	this.style.border = "none";
-});
-});
+        e.target.style.borderColor = "#000";
+    });
+})
 let q4=document.querySelectorAll('.brand');
-q4.forEach(function(el){
-el.addEventListener("click", function() {
-	this.style.border = "5px solid black";
+q4.forEach(function(el) {
+    el.addEventListener("click", function(e) {
+q4.forEach(function(el2) {
+el2.style.borderColor = "#a3ccae";
 });
-el.addEventListener("click", function() {
-	this.style.border = "none";
-});
-});
+        e.target.style.borderColor = "#000";
+    });
+})
 let q5=document.querySelectorAll('.aesthetic');
-q5.forEach(function(el){
-el.addEventListener("click", function() {
-	this.style.border = "5px solid black";
+q5.forEach(function(el) {
+    el.addEventListener("click", function(e) {
+q5.forEach(function(el2) {
+el2.style.borderColor = "#a3ccae";
 });
-el.addEventListener("click", function() {
-	this.style.border = "none";
-});
-});
+        e.target.style.borderColor = "#000";
+    });
+})
 
 function refreshPage(){
     window.location.reload();
