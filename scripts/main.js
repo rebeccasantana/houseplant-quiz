@@ -63,7 +63,7 @@ function refreshPage(){
 
 		 document.getElementById("form1").onsubmit=function(e) {
 
-	/*		 e.preventDefault(); */
+e.preventDefault();
 
 
 			 let result = document.querySelectorAll('.result');
