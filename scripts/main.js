@@ -114,9 +114,9 @@ total=0;
 document.querySelector('#answer').scrollIntoView({
   behavior: 'smooth'
 });
-
+//^^Source code:https://stackoverflow.com/questions/34262921/smooth-scroll-to-div-after-click-on-submitt/34263413
 
 
 	   return false; // required to not refresh the page; just leave this here
 	   }// end the submit function
-//Source code https://codeactually.com/examples.html
+//Source code for questions: https://codeactually.com/examples.html
